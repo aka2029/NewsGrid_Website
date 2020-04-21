@@ -79,8 +79,8 @@
       <div>
         <h3>Email NewsLetter</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <form>
-          <input type="email" placeholder="Enter Email">
+        <form name="contact" method="POST" data-netlify = "true"> <!-- This line is modified for netlify, initially it just had <form> -->
+          <input type="email" name="email" placeholder="Enter Email"> <!-- Here name was added for netlify -->
           <input type="submit" value="Subscribe" class="btn btn-primary">
         </form>
       </div>
